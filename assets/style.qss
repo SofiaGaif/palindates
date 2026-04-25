@@ -1,0 +1,85 @@
+* {
+    font-family: 'Nunito';
+    font-size: 46px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin: 25px;
+}
+
+*[class='h1'] {
+    font-size: 102px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+*[class='h2'] {
+    font-size: 72px;
+    margin: 25px;
+}
+
+*[class='small'] {
+    font-size: 40px;
+}
+
+*[class='hint'] {
+    font-size: 36px;
+    color: #676767;
+}
+
+QPushButton {
+    background-color: #007acc;
+    border-radius: 12px;
+    width: 900px;
+    height: 100px;
+}
+
+QPushButton:hover {
+    background-color: #2dabff;
+}
+
+QPushButton:pressed {
+    color: #676767;
+    background-color: #004f9f;
+}
+
+QPushButton#help-btn {
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    margin: 15px;
+    margin-top: 30px;
+}
+
+*[class='input'] {
+    background-color: #2d2d2d;
+    border: 2px solid #007acc;
+    border-radius: 8px;
+    margin: 10px;
+    height: 80px;
+    width: 330px;
+}
+
+QTextEdit {
+    word-spacing: 80px;
+    padding-left: 40px;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #2d2d2d;
+    width: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #ffffff;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical,
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+    height: 0px;
+}
